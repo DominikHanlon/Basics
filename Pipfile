@@ -4,9 +4,11 @@ verify_ssl = true
 name = "pypi"
 
 [dev-packages]
+pytest = "*"
 
 [packages]
 requests = "*"
+beautifulsoup4 = "*"
 
 [requires]
 python_version = "2.7"
